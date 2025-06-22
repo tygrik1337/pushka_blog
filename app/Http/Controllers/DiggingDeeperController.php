@@ -88,7 +88,7 @@ class DiggingDeeperController extends Controller
             return $newItem;
         });
 
-        //dd ($collection);
+        //php artisan queue:tabledd ($collection);
 
         $newItem = new \stdClass;
         $newItem->id = 9999;
